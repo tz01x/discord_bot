@@ -3,6 +3,10 @@ import os
 import discord
 import get_memes
 from keep_alive import keep_alive
+from dotenv import load_dotenv
+
+load_dotenv('.environ')
+
 
 client = discord.Client()
 
